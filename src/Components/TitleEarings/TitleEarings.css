@@ -1,0 +1,39 @@
+
+.div_TitleEarings{
+    background-repeat: no-repeat;
+    background-size:cover ;
+    padding: 50px  0px; 
+    width: 100%;
+    margin: 15px auto;
+    
+}
+
+.div_TitleEarings_head{
+    margin: 5% auto;
+    text-align: center;
+    color: aliceblue;
+}
+.div_TitleEarings_text{
+    color: aliceblue;
+    width: 50%;
+    margin: 5% auto;
+}
+
+
+.div_TitleEarings_link{
+ color: white;
+ padding: 15px 20px;
+ border: solid black 2px;
+ text-decoration: none;
+ margin: 10%;
+}
+
+.div_TitleEarings_link:hover{
+    background-color: rgba(24, 25, 26, 0.5);
+}
+
+@media(max-width:767px){
+	.div_TitleEarings_text{
+        width: 90%;
+    }
+}

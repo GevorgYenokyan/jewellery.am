@@ -1,0 +1,24 @@
+.nav{
+    padding: 15px;
+}
+
+.nav_list{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+}
+
+.nav_link{
+    text-decoration: none;
+    color: white;
+}
+
+
+@media(max-width:767px){
+	.nav_list{
+        flex-direction: column;
+    }
+    .nav_link{
+        font-size: 15px;
+    }
+}

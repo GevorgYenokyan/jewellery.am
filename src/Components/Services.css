@@ -1,0 +1,64 @@
+.slide_div{
+    position: relative;
+}
+
+.btn_nextserv{
+    position: absolute;
+    right:20px;
+    top: 50%;
+    font-size: 40px;
+    color: white;
+    padding: 15px;
+   border-radius: 50%;
+   cursor: pointer;
+}
+
+.btn_prevserv{
+    position: absolute;
+    left: 20px;
+    top: 50%;
+   font-size: 40px;
+   color: white;
+   padding: 15px;
+   border-radius: 50%;
+   cursor: pointer;
+}
+
+.btn_prevserv:hover{
+    background-color: rgba(227, 235, 241,0.5);
+}
+
+.btn_nextserv:hover{
+    background-color: rgba(227, 235, 241,0.5);
+}
+
+.EaringsSlide_div{
+    width: 100%;
+    overflow: hidden;
+}
+
+.braceletsSlide_div{
+    margin-top: 10px;
+}
+
+.NecklacesSlide_div{
+    margin-top: 10px;
+}
+.RingsSlide_div{
+    margin-top: 10px;
+}
+
+@media(max-width:767px){
+	
+    .btn_prevserv{
+        left: 0%;
+        top: 5%;
+
+    }
+    
+    .btn_nextserv{
+        right: 0%;
+        top: 5%;
+    
+    }
+}
